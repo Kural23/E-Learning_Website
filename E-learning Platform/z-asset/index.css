@@ -1,0 +1,123 @@
+:root {
+    --color: #4f6da3;
+    --bs-gray-400: #ced4da;
+  }
+
+
+  nav{
+    background-color: white !important;
+  }
+
+.navbar {
+    --bs-navbar-hover-color:var(--color)!important;
+}
+.bg-light{
+    --bs-bg-opacity: 0 !important;
+}
+.btn-success{
+    --bs-btn-bg: var(--color) !important;
+    --bs-btn-border-color: #425985 !important;
+    --bs-btn-hover-bg: #425985 !important;
+    --bs-btn-active-bg: #425985 !important;
+}
+
+.navbar-brand{
+    color: var(--color) !important;
+    font-weight: bold;
+}
+.b_img{
+    background-image: url(https://media.istockphoto.com/id/1140691163/photo/e-learning-concept-online-classes.jpg?s=612x612&w=0&k=20&c=4loHgW2GzKmJF3nbRhiirrD0Kc7z1UrjB0PFoDGcn00=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh !important;
+}
+.bg_color{
+    backdrop-filter: blur(10px) !important;
+    height: 80vh !important;
+}
+.fa-circle-check, .color{
+    color: var(--color);
+}
+.count{
+    background-color: #e2e5e7;
+}
+.blue{
+    background-color: var(--color) !important;
+    color: white !important;
+}
+.icon{
+    font-size: 1.3rem;
+}
+.trainer_image{
+    max-width: 50px;
+    border-radius: 70%;
+    max-height: 30px;
+}
+.form-control{
+    border-color: var(--color) !important;
+}
+.title{
+    position: relative;
+    overflow: hidden;
+}
+
+.ribbon {
+    background:var(--color);
+    color:white;
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0px 3px ;
+   
+  }
+.profile{
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgba(231, 237, 234, 0.395);
+    color: white;
+    font-size: 26px;
+ 
+  }
+  .container{
+    overflow: hidden;
+  }
+  .e_card{
+    position: relative;
+  }
+  .e_card-body {
+    z-index: 10;
+    background: white;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px;
+    margin-top: -100px;
+    transition: all 0.3s ease 0s;
+    width: 80%;
+  }
+ 
